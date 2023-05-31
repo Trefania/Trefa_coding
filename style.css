@@ -1,0 +1,44 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+
+
+body, .home {
+	
+	color: rgb(11, 11, 11);
+	background: url(chur.jpg)
+}
+
+.header{
+	background-color: rgb(0, 0, 0);
+	list-style: none;
+	display: flex;
+	justify-content: right;
+
+}
+
+.header li{
+	padding: 20px 20px;
+}
+
+.header li a{
+	padding: 50px;
+	color: white;
+	transition: .3s;
+}
+
+.header a:hover, .header a.active{
+	color: rgb(255, 6, 6);
+}
+
+
+body, .about {
+	background-color: rgb(212, 202, 202);
+	height: 100%;
+	width: 100%;
+}
+
